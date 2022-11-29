@@ -4,26 +4,51 @@ body{
     font-family: "Jost", sans-serif;
     color:#1873E7;
     display: grid;
-    grid-template-rows: 120px auto 180px;
+    grid-template-rows: auto 130px;
 
 }
 
 header{
     width:100%;
-    background-color: beige;
 
    text-align: center;
-   margin-top: 35px;
+   margin-top: 0px;
+   position: fixed;
+   top: 0px;
+    left: 0px;
+    border-bottom: 2px;
+    border-color: #1873E7;
+    background-color: white;
   
 }
 
+hr{
+    border-color:#1873E7;
+    border-style: solid;
+    border-width: 0.5px;
+}
+
+
 .content{
    
-    background-color: bisque;
-    margin-bottom: 40px;
-  
+    margin-bottom: 20px;
     
 
+
+    
+
+}
+
+#logo{
+    border: 5px solid #1873E7;
+    padding-left: 7px;
+    padding-right: 7px;
+
+    
+}
+
+#logo:hover{
+    text-decoration: none;
 }
 
 nav{
@@ -31,6 +56,7 @@ nav{
     text-align: center;
     padding: 20px;
     margin-top: 50%;
+
 
    
 }
@@ -41,26 +67,45 @@ nav ul{
 
 main{
     position: bottom;
-    background-color: blanchedalmond;
   padding: 20px;
   margin-top: 80px;
   margin-bottom: 45px;
-  margin-right: 80px;
+  overflow-y: auto;
+    height: 100vh;
 }
+  
 
 footer{
-    background-color: aliceblue;
     text-align: center;
-    margin-bottom: 50px;
-    margin-top: 35px;
+    margin-bottom: 15px;
 }
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #1873E7;
+
+}
+
+a:hover{
+text-decoration: underline;
+}
+
 
 @media (min-width: 400px) {
     
     .content{
         display: grid;
         grid-template-columns: 50% 50%;
+    }
 
+    main{
+    margin-right: 80px;
+    }
 
 }
+
+
 
