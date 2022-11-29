@@ -5,7 +5,7 @@ body{
     color:#1873E7;
     display: grid;
     grid-template-rows: auto 130px;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 
@@ -28,6 +28,10 @@ hr{
     border-color:#1873E7;
     border-style: solid;
     border-width: 0.5px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #1873E7;
 }
 
 
