@@ -10,7 +10,7 @@ body{
 
 header{
     width:100%;
-
+    height: 120px;
    text-align: center;
    margin-top: 0px;
    position: fixed;
@@ -18,7 +18,8 @@ header{
     left: 0px;
     border-color: #1873E7;
     background-color: white;
-
+    display: flex;
+    justify-content: center;
   
 }
 
@@ -30,24 +31,41 @@ hr{
 
 
 .content{
-   
     margin-bottom: 20px;
     
-
-
-    
-
+}
+h1 {
+    position: absolute;
 }
 
 #logo{
-    border: 5px solid #1873E7;
+    border: 7px solid #1873E7;
     padding-left: 7px;
     padding-right: 7px;
-
-    
+    z-index: 1;
+    position: absolute;
+    font-weight: bold;
+    font-size: 38px;
+    opacity: 0;
+    top:30px
 }
 
 #logo:hover{
+    text-decoration: none;
+}
+#mobile-logo{
+    border: 7px solid #1873E7;
+    padding-left: 7px;
+    padding-right: 7px;
+    z-index: 5;
+    position: absolute;
+    font-weight: bold;
+    font-size: 38px;
+    opacity: 1;
+    top: 30px
+}
+
+#mobile-logo:hover{
     text-decoration: none;
 }
 
@@ -103,6 +121,14 @@ text-decoration: underline;
 
     main{
     margin-right: 80px;
+    }
+
+    #logo{
+        opacity: 1;
+    }
+
+    #mobile-logo{
+        opacity: 0;
     }
 
 }
