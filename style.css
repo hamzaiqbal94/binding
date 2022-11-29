@@ -38,6 +38,15 @@ h1 {
     position: absolute;
 }
 
+h4{
+    font-weight: 300;
+    font-style: italic;
+}
+
+h3{
+    font-weight: 700;
+}
+
 #logo{
     border: 7px solid #1873E7;
     padding-left: 7px;
@@ -81,6 +90,7 @@ nav{
 
 nav ul{
     list-style: none;
+    padding-inline-start: 0px;
 }
 
 main{
@@ -132,6 +142,4 @@ text-decoration: underline;
     }
 
 }
-
-
 
