@@ -163,8 +163,13 @@ nav{
 
 }
 
+header {
+    display: none;
+}
+
 main {
     overflow-y: visible;
+    height: fit-content;
 }
 
 body{
