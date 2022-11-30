@@ -5,7 +5,7 @@ body{
     color:#1873E7;
     display: grid;
     grid-template-rows: auto 130px;
-    font-size: 18px;
+    font-size: 16px;
 
 }
 
@@ -13,7 +13,7 @@ header{
     width:100%;
     height: 120px;
    text-align: center;
-   margin-top: 0px;
+   margin-top: 5px;
    position: fixed;
    top: 0px;
     left: 0px;
@@ -21,6 +21,8 @@ header{
     background-color: white;
     display: flex;
     justify-content: center;
+    transform: rotate(-4deg) scale(120%);
+
   
 }
 
@@ -64,13 +66,13 @@ h6{
 }
 
 #logo{
-    border: 7px solid #1873E7;
+    border: 5px solid #1873E7;
     padding-left: 7px;
     padding-right: 7px;
     z-index: 1;
     position: absolute;
     font-weight: bold;
-    font-size: 38px;
+    font-size: 33px;
     opacity: 0;
     top:30px
 }
@@ -100,9 +102,9 @@ nav{
     padding: 20px;
     margin-top: 50%;
 
-
-   
 }
+
+
 
 nav ul{
     list-style: none;
@@ -123,7 +125,8 @@ main{
 
 footer{
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    font-size: 16px;
 }
 
 a{
@@ -138,6 +141,8 @@ a:visited{
 a:hover{
 text-decoration: underline;
 }
+
+
 
 
 @media (min-width: 400px) {
