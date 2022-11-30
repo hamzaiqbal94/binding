@@ -57,6 +57,12 @@ h2{
     font-weight: 600;
 }
 
+h6{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+}
+
 #logo{
     border: 7px solid #1873E7;
     padding-left: 7px;
