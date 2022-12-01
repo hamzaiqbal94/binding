@@ -6,6 +6,7 @@ body{
     display: grid;
     grid-template-rows: auto 130px;
     font-size: 16px;
+    
 
 }
 
@@ -25,18 +26,12 @@ header{
 
 }
 
-  
-  @keyframes slidein {
-  from {
-    margin-left: 100%;
-    width: 300%;
+  #atoms{
+    position: absolute;
+    z-index: -1;
+    width: 30%;
+    left: 10%;
   }
-
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
 
 
 html {
@@ -117,10 +112,11 @@ h6{
 
 nav{
     position: top;
-    text-align: center;
-    padding: 20px;
-    margin-top: 50%;
-
+    margin-top: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:50%
 }
 
 
@@ -128,6 +124,16 @@ nav{
 nav ul{
     list-style: none;
     padding-inline-start: 0px;
+    text-align: center;
+    color: white;
+}
+
+li a:visited {
+    color: white;
+}
+
+li a{
+    color: white;
 }
 
 main{
@@ -137,9 +143,13 @@ main{
   margin-bottom: 45px;
   overflow-y: auto;
     height: 100vh;
+    -webkit-hyphens: auto;
+	hyphens: auto;
 }
   
-
+#printheader{
+    display: none;
+}
 
 
 footer{
@@ -161,7 +171,9 @@ a:hover{
 text-decoration: underline;
 }
 
-
+#recycle{
+    display: none;
+}
 
 
 @media (min-width: 400px) {
@@ -183,6 +195,8 @@ text-decoration: underline;
         opacity: 0;
     }
 
+ 
+
 }
 
 @media print {
@@ -190,6 +204,28 @@ text-decoration: underline;
         grid-template-columns: 100%;
 
     }
+
+#printheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#recycle{
+    display: block;
+}
+
+#printlogo{
+width: 70%;
+filter: grayscale(100%);
+}
+
+#qrcode{
+    width: 7%;
+
+}
+
 nav{
     display: none;
 
