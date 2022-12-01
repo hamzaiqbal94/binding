@@ -52,7 +52,8 @@ hr{
 
 .content{
     margin-bottom: 20px;
-    
+    grid-template-columns: 50% 50%;
+    height: fit-content;
 }
 
 h1 {
@@ -145,6 +146,7 @@ main{
     height: 100vh;
     -webkit-hyphens: auto;
 	hyphens: auto;
+    height: fit-content;
 }
   
 #printheader{
@@ -176,15 +178,17 @@ text-decoration: underline;
 }
 
 
-@media (min-width: 400px) {
+@media (min-width: 500px) {
     
     .content{
         display: grid;
         grid-template-columns: 50% 50%;
+        height: 80vw;
     }
 
     main{
     margin-right: 80px;
+    height: 82%;
     }
 
     #logo{
