@@ -178,7 +178,7 @@ text-decoration: underline;
 }
 
 
-@media (min-width: 500px) {
+@media (min-width: 535px) {
     
     .content{
         display: grid;
@@ -199,7 +199,7 @@ text-decoration: underline;
         opacity: 0;
     }
 
- 
+
 
 }
 
