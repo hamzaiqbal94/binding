@@ -29,8 +29,10 @@ header{
   #atoms{
     position: absolute;
     z-index: -1;
-    width: 30%;
-    left: 10%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
   }
 
 
@@ -113,11 +115,13 @@ h6{
 
 nav{
     position: top;
-    margin-top: 25%;
+    margin-top: 65%;
+    margin-bottom: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
     height:50%
+
 }
 
 
@@ -178,6 +182,8 @@ text-decoration: underline;
 }
 
 
+
+
 @media (min-width: 535px) {
     
     .content{
@@ -198,6 +204,14 @@ text-decoration: underline;
     #mobile-logo{
         opacity: 0;
     }
+
+    #atoms{
+        position: absolute;
+        z-index: -1;
+        width: 30%;
+        left: 10%;
+        transform: translate(0,0);
+      }
 
 
 
